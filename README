@@ -1,0 +1,27 @@
+# Mini Shell Project
+# Gurbir Sandha
+# Student ID: 1615292
+# Submitted: October 2, 2022
+
+Notes:
+    The "jobs" command displays process status using "R" for running and "S" for suspended.
+    Running the "exit" command will wait for all running processes to finish executing and will kill all suspended processes before exiting the shell.
+
+Running instructions:
+    Running make will generate an executable called shell379, which will run the shell program. The makefile contains other targets that I used for testing purposes. Please ignore those. In the terminal in the project directory, run:
+
+        make
+        ./shell379
+
+Acknowledgements:
+    The following answer helped me solve a stdout redirection problem when writing the output of the "jobs" and "exit" commands to a user-specified file:
+        https://stackoverflow.com/a/14500446
+
+    The following post inspired my implementation of I/O redirection for shell commands:
+        https://stackoverflow.com/a/2605313
+
+    I used the code from the following post to implement my SIGCHLD signal handler function:
+        https://stackoverflow.com/a/11322649
+
+    Other than the above, I used Linux man pages and the eClass discussion forum to understand other system calls and get other tips.
+
