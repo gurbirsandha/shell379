@@ -8,7 +8,7 @@ Notes:
     Running the "exit" command will wait for all running processes to finish executing and will kill all suspended processes before exiting the shell.
 
 Running instructions:
-    Running make will generate an executable called shell379, which will run the shell program. The makefile contains other targets that I used for testing purposes. Please ignore those. In the terminal in the project directory, run:
+    Running make will generate an executable called shell379, which will run the shell program. The makefile contains other targets that I used for testing purposes. Please ignore those. In the terminal in the project directory, please run:
 
         make
         ./shell379
